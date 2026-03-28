@@ -1,8 +1,9 @@
 body { 
-  background: rgb(0,0,0);
-  background:
+  background: rgb(255, 254, 254);
+  /*background:
   radial-gradient(ellipse at top, #e6a7a7, transparent),
-  radial-gradient(ellipse at bottom, #89a970cd, transparent);
+  radial-gradient(ellipse at bottom, #89a970cd, transparent);*/
+  background: linear-gradient(to right, #e6a7a78b, #89a97092);
   font-family: "Gill Sans", sans-serif;
   text-align: center;
   margin-top: 40px;
