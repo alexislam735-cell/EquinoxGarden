@@ -53,3 +53,40 @@ function addTask()  {
     });
 }
 
+<<<<<<< HEAD
+=======
+const checkbox = li.querySelector("input");
+const editBtn = li.querySelector(".edit-btn");
+const taskSpan = li.querySelector("span");
+const deleteBtn = li.querySelector(".delete-btn");
+
+checkbox.addEventListener("click", function () {
+    li.classList.toggle("completed", checkbox.checked);
+    updateCounters();
+  });
+
+editBtn.addEventListener("click", function () {
+    const update = prompt("Edit task:", taskSpan.textContent);
+    if (update !== null) {
+      taskSpan.textContent = update;
+      li.classList.remove("completed");
+    }
+});
+
+
+
+
+
+
+/*let currentStage = 1; // Starting stage
+
+function cycleBlossoms() {
+    currentStage++;
+    if (currentStage > 7) {
+        currentStage = 1;
+    }
+    const blossomImg = document.getElementById("blossom-img");
+    blossomImg.src = imgs/Cherry Blossem-${currentStage}.png.png;
+    blossomImg.alt = Cherry blossom stage ${currentStage};
+}*/
+>>>>>>> b67d9c0 (?)
