@@ -29,6 +29,18 @@ const editBtn = li.querySelector(".edit-btn");
 const taskSpan = li.querySelector("span");
 const deleteBtn = li.querySelector(".delete-btn");
 
+const completedCounter = document.getElementById("completed-counter");
+const uncompletedCounter = document.getElementById("uncompleted-counter");
+
+function updateCounters() {
+    const completedTasks = document.querySelectorAll(".completed").length;
+    const uncompletedTasks =
+      document.querySelectorAll("li:not(.completed)").length;
+  
+    completedCounter.textContent = completedTasks;
+    uncompletedCounter.textContent = uncompletedTasks;
+  }
+
 checkbox.addEventListener("click", function () {
     li.classList.toggle("completed", checkbox.checked);
     updateCounters();
