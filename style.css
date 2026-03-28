@@ -1,1 +1,19 @@
+body { 
+  background: rgb(0,0,0);
+  background:
+  radial-gradient(ellipse at top, #e6a7a7, transparent),
+  radial-gradient(ellipse at bottom, #89a970cd, transparent);
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
 
+#todo-container {
+  background: rgba(203, 203, 203, 0.346);
+  width: 450px;
+  margin: 0 auto;
+  border: 2px solid #fefefe00;
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+}
