@@ -44,6 +44,8 @@ editBtn.addEventListener("click", function () {
 
 
 
+
+
 let currentStage = 1; // Starting stage
 
 function cycleBlossoms() {
