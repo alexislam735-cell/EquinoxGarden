@@ -23,7 +23,7 @@ body {
 #task-container {
   background: rgba(114, 81, 81, 0.346);
   width: 400px;
-  min-height: 200px;
+  height: 500px;
   border: 2px solid #fefefe00;
   margin-bottom: 50px;
   padding: 20px;
@@ -99,7 +99,7 @@ margin-top: 20px;
 .completed {
   text-decoration: line-through;
   color: rgb(0, 0, 0);
-  border: 1px solid rgb(0, 0, 0);
+  border: 5px solid rgb(157, 97, 100);
 }
 
 hr
