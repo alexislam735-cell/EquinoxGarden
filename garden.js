@@ -3,7 +3,7 @@ const listContainer = document.getElementById("list-container");
 
 
 function addTask()  {
-    
+
     const task = inputBox.value.trim();
     if (!task) {
         alert("Please write down a task");
@@ -13,7 +13,7 @@ function addTask()  {
     const li = document.createElement("li");
     li.innerHTML = `
          <label>
-            <input type-"checkbox">
+            <input type="checkbox">
             <span>${task}</span>
         </label>
         <span class="edit-btn">Edit</span>
