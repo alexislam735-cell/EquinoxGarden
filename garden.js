@@ -33,6 +33,3 @@ checkbox.addEventListener("click", function () {
     li.classList.toggle("completed", checkbox.checked);
   });
 
-editBtn.addEventListener("click", function () {
-
-}
