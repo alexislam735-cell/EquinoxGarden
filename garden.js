@@ -51,6 +51,13 @@ function addTask()  {
           li.classList.remove("completed");
         }
     });
+
+    deleteBtn.addEventListener("click", function () {
+        if (confirm("Are you sure you want to delete this task?")) {
+          li.remove();
+          updateCounters();
+        }
+      });
 }
 
 const checkbox = li.querySelector("input");
