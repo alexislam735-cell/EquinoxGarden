@@ -50,3 +50,35 @@ h1 {
 #input-button:hover {
   background-color: #c6d4b9;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align:left;
+
+}
+
+li {
+border: 1px solid rgba(208, 160, 160, 0.91);
+border-radius: 5px;
+margin-bottom: 10px;
+padding: 10px;
+margin-top: 10px;
+}
+
+.edit-btn, .delete-btn {
+  float: right;
+  color:rgb(98, 59, 67);
+  cursor: pointer;
+  margin: 3px 5px;
+  border: none;
+  padding: 3px 5px;
+  background: none;
+} 
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+  border: 1px solid gray;
+}
