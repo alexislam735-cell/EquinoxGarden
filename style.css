@@ -20,7 +20,16 @@ body {
   border-radius: 15px;
 }
 
-
+#task-container {
+  background: rgba(114, 81, 81, 0.346);
+  width: 400px;
+  min-height: 200px;
+  border: 2px solid #fefefe00;
+  margin: 1em auto;
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+}
 #header {
   margin: 5px;
   font-size: 20px;
@@ -93,6 +102,6 @@ margin-top: 20px;
 
 hr {
   border: 1px solid rgb(0, 0, 0);
-  margin: 20px 0;
+  margin: 100px 0;
   color: black;
 }
