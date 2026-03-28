@@ -9,6 +9,6 @@ function addTask()  {
         return; 
     }
     const li = document.createElement("li");
-    
+    listContainer.appendChild(li);
 }
 
