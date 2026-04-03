@@ -3,7 +3,6 @@
 ## Description: 
 This is a spring themed to do list website for you to put your day to day tasks on.
 
-
 ## Why We Made This Project
 This project was made by me (Yuki), Alexis, and Lyrica for a hackthon we attended.
 
@@ -21,7 +20,6 @@ Process:
 - We planned the general idea of what it would look like and went from there
 - Wrote and tested code
 - Fixed bugs and improved the look of it
-
 
 
 ## Challenges & What We Learned
